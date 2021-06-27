@@ -21,6 +21,6 @@ it('handles errors', async () => {
     expect(response.status).toEqual(500);
 });
 it('handles correct routes', async () => {
-    const response = await request.get('/');
+    const response = await request.get('/data');
     expect(response.status).toEqual(200);
 });
